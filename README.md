@@ -1,1 +1,1 @@
-# DataSci
+This repository is for my various data science exploration. I am working almost exclusively with Python and its DS / ML packages, so most of the stuff in here will be Python files and Jupyter notebooks. Really, I'm just typing to create more than a one sentence readme (sue me). :)
