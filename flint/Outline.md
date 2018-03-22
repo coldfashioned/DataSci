@@ -27,7 +27,7 @@ Something that could come out of this is to overlay population information on ma
 I found a project and paper on arxiv.org of a project that has an approach that I would like to apply to this project. After some finagling with cloning the project's github repository, I now have that project in the "urban-env" folder in this repo. I was hoping to just jump into training the model and applying it to satellite images of Flint, MI, but the original project used data for European cities. I suppose I could continue that way, but it might make more sense to gather GIS and satellite data of U.S. cities that are similar to Flint. There are many different ways I can go with developing deep learning models. The key, I think is to take things in manageable chunks. If I try to "eat the elephant", the project could overwhelm me. Here is what I think is a reasonable way to start.
 
 * **Step 1:**
-    * Using the above-mentioned model and lessons learned from [Fast.ai](http://www.course.fast.ai), build a deep learning model to perform semantic segmentation of aerial satellite imagery.        
+    * Using the above-mentioned model and lessons learned from [Fast.ai](http://course.fast.ai), build a deep learning model to perform semantic segmentation of aerial satellite imagery.        
     * Train the model with the data from European cities and then apply that learning to Flint GIS info & sat images.
     * Refine the model as needed & determine what the current state land usage is in Flint.
 * **Step 2:**
