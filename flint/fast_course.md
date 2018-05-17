@@ -6,4 +6,6 @@ There's a section that offers a tip regarding the .fit() method for training you
 
 The 3 denotes the number of cycles (sort of like epochs) for training the model. However, when using the cycle_mult parameter, your cycle is doubled after each epoch, which allows more time for your model to converge and achieve higher accuracy.
 
-**Sidenote** I also found that there's a website for previewing markdown. That will come in handy when working on this project, as well as when proofing other github and jupyter notebook work. 
+**Sidenote** I also found that there's a website for previewing markdown. That will come in handy when working on this project, as well as when proofing other github and jupyter notebook work.
+
+**Lesson 3** digs into using the fastai library for multi-class classification of satellite images. It seems like the fastai library is so streamlined, that all one really needs is a labelled dataset of images. In the Amazon example, the labels are read from a CSV file indexed by image filename. 
